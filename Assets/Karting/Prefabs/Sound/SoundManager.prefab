@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3972639601188398981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972639601188398987}
+  - component: {fileID: 3972639601188398986}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972639601188398987
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972639601188398981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.889917, y: -3.2381394, z: 29.650404}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3972639601188398986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972639601188398981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3a71cb6e4561f049b72d0636e464a64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroy: 1
+  SAVE_SOUND_SFX: SAVE_SOUND_SFX
+  SAVE_SOUND_MUSIC: SAVE_SOUND_MUSIC
+  listSoundSFX:
+  - {fileID: 8300000, guid: 2484305e86e3ec742b54432d20a33643, type: 3}
+  - {fileID: 8300000, guid: 6348aa25c671e11469e90bce531dcc1d, type: 3}
+  - {fileID: 8300000, guid: 57f641bcd9cafd84680c8249584d0ad8, type: 3}
+  - {fileID: 8300000, guid: 49f4f85309ed13f42be9e0c85e7f2af7, type: 3}
+  - {fileID: 8300000, guid: f2c8f485c3addeb40a562f0caa939284, type: 3}
+  - {fileID: 8300000, guid: cf50d7c0416e5c642a4250a94f0cb1c3, type: 3}
+  - {fileID: 8300000, guid: 4c18f79e15e549247ae89ab5139e19fc, type: 3}
+  - {fileID: 8300000, guid: a0ebe5f213ab3ff45a5a13974b770352, type: 3}
+  m_startSourceNumber: 5
+  listSoundMusic: []
+  currentSoundMusic: 0
+  isSoundSfx: 0
+  isSoundMusic: 0
+  ShootingSoundMaxVolume: 0.1

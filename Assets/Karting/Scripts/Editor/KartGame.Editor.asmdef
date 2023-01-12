@@ -1,0 +1,19 @@
+{
+    "name": "KartGame.Editor",
+    "references": [
+        "GUID:a54b96d5ddd2c488aadb7e2cb0921b9b",
+        "GUID:35cc2632df2760540bcc67312740008b",
+        "GUID:a738238285a7a8246af046cbf977522f"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
